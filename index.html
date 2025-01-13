@@ -72,6 +72,28 @@
             text-align: center;
         }
 
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .service-card h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
         @media (max-width: 768px) {
             .hero {
                 padding: 2rem 1rem;
@@ -88,6 +110,10 @@
 
             .container {
                 padding: 1rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -108,6 +134,32 @@
                 <p>מאז ומתמיד נרתמתי לעזרה ובעיקר לרצון לעזור לך להרגיש בטוח ונוח בבית שלך.</p>
                 <p>כל עבודה, התקנה, תיקון או שדרוג נעשה בתשומת לב לפרטים הקטנים, מקצועיות בלתי מתפשרת וברמת שירות גבוהה.</p>
                 <p><b>שם העסק:</b> "מאור לבית"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 2rem;">השירותים שלי</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>⚡ תיקוני חשמל ביתיים</h3>
+                </div>
+                <div class="service-card">
+                    <h3>🔧 עבודות הנדימן ותיקונים קטנים</h3>
+                </div>
+                <div class="service-card">
+                    <h3>💡 התקנת גופי תאורה</h3>
+                </div>
+                <div class="service-card">
+                    <h3>📺 התקנת מסכים ותשתיות</h3>
+                </div>
+                <div class="service-card">
+                    <h3>🏠 שדרוג מערכות חשמל</h3>
+                </div>
+                <div class="service-card">
+                    <h3>📋 בדיקות ואישורים</h3>
+                </div>
             </div>
         </div>
     </section>
