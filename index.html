@@ -1,42 +1,69 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="he">
+<html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>המאור של הבית - חשמל ותחזוקה</title>
+    <title>המאור לבית</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            direction: rtl;
+            background-color: #f5f5f5;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #212121;
-            line-height: 1.6;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
+        header {
+            background-color: #1a237e;
+            color: white;
             padding: 20px;
-        }
-        h1, h2, h3 {
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
             color: #1a237e;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
         }
-        p {
-            text-align: center;
+        .cta-button:hover {
+            background-color: #fff350;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>המאור של הבית</h1>
-        <h2>נעים להכיר, שמי מאור</h2>
-        <p>הבעלים של "המאור לבית".</p>
+
+    <header>
+        <h1>נעים להכיר, שמי מאור</h1>
+        <h2>הבעלים של "המאור לבית"</h2>
+    </header>
+
+    <section>
+        <h3>עליי</h3>
         <p>הנדסאי חשמל מוסמך בעל רישיון חשמלאי ראשי, עם ניסיון רב בביצוע עבודות חשמל, התקנות גופי תאורה, תמונות ותיקונים נדרשים בבית.</p>
         <p>מאז ומתמיד נרתמתי לעזרה ובעיקר לרצון לעזור לך להרגיש בטוח ונוח בבית שלך.</p>
         <p>כל עבודה, התקנה, תיקון או שדרוג נעשה בתשומת לב לפרטים הקטנים, מקצועיות בלתי מתפשרת וברמת שירות גבוהה.</p>
-        <h2>השירותים שלי</h2>
+    </section>
+
+    <section>
+        <h3>השירותים שלי</h3>
         <ul>
             <li>⚡ תיקוני חשמל ביתיים</li>
             <li>🔧 עבודות הנדימן ותיקונים קטנים</li>
@@ -45,9 +72,13 @@
             <li>🏠 שדרוג מערכות חשמל</li>
             <li>📋 בדיקות ואישורים</li>
         </ul>
-        <h2>צרו קשר</h2>
-        <p>📞 התקשרו עכשיו: <a href="tel:0506966364">050-6966364</a></p>
-        <p>📱 שלחו הודעה בוואטסאפ: <a href="https://wa.me/972506966364">לחצו כאן</a></p>
-    </div>
+    </section>
+
+    <section>
+        <h3>צריכים עזרה? אני כאן בשבילכם!</h3>
+        <p>לכל בעיה יש פתרון, ולכל בית מגיע מקצוען שייתן שקט נפשי.</p>
+        <a href="tel:0506966364" class="cta-button">התקשרו אליי עכשיו ✆</a>
+    </section>
+
 </body>
 </html>
