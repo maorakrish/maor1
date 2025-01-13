@@ -1,0 +1,19 @@
+# שם האתר
+title: "המאור של הבית - חשמל ותחזוקה"
+# תיאור
+description: "שירותי חשמל, התקנות ותיקונים לבית"
+# מקור קבצים
+source: .
+# תבנית
+theme: jekyll-theme-primer
+# פלאגינים
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+paginate: 5
